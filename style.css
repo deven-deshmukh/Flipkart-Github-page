@@ -1,0 +1,294 @@
+:root {
+  --content-width: min(1200px, 75vw);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+header {
+  width: var(--content-width);
+  height: 100px;
+
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+}
+
+#top-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  margin: 0 10px;
+}
+
+.top-nav-left,
+.top-nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.top-nav-right {
+  width: 30%;
+}
+
+.btn {
+  width: 150px;
+  height: 30px;
+  padding: 20px;
+
+  border: none;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn img {
+  width: 32px;
+}
+
+#bottom-nav {
+  display: flex;
+  gap: 10px;
+
+  width: 100%;
+  height: 50px;
+
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.btn-box {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 0.5rem;
+}
+
+.btn-box input {
+  width: 90%;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.btn-box i {
+  padding: 2px;
+}
+
+.login-box {
+  width: 30%;
+  height: 4%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  /* padding: 20px 40px; */
+  gap: 1px;
+  padding: 4px 8px;
+}
+
+.login-box-items>img {
+  justify-content: center;
+}
+
+.login-box-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.2rem;
+  align-items: center;
+}
+
+main {
+  width: var(--content-width);
+  margin: 230px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#icons-box {
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1px;
+
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+
+  margin-bottom: 1rem;
+}
+
+.icons-items {
+  width: 70px;
+  height: 70px;
+
+  padding: 5px;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-img {
+  width: 100%;
+  height: 100%;
+}
+
+.herosection-img>div>img {
+  height: 224px;
+  width: 460px;
+  border-radius: 20px;
+}
+
+.herosection-img {
+  gap: 20px;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.herosection-img>div {
+  position: relative;
+  display: inline-block;
+}
+
+.herosection-img>div>p {
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
+  font-weight: 800;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 18px;
+  z-index: 5;
+}
+
+
+/* container */
+.trending-section {
+  background: #e7e2ff;
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 500px; */
+  justify-content: space-evenly;
+  gap: 2px;
+  border-radius: 30px;
+}
+
+#trending-section-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#trending-section-items img {
+  height: auto;
+  width: 250px;
+  border-radius: 30px;
+  margin: 10px 10px;
+  display: flex;
+}
+
+.wrapper-class>img {
+  height: 30px;
+  width: 30px;
+}
+
+.wrapper-class {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 8px;
+}
+
+.footer-main-div {
+  /* margin-top: 200px; */
+  padding: 40px 50px;
+  margin-top: 40px;
+  background: black;
+  color: white;
+  height: auto;
+  border: 1px solid black;
+  width: 100%;
+  /* color: white; */
+  font-size: 16px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.footer-main-div>div>p {
+  padding: 5px;
+}
+
+.border-line {
+  border: 1px solid black;
+}
+
+.inner-media {
+  margin-top: 30px;
+}
+
+.inner-media-icons {
+  margin-top: 20px;
+  height: 40px;
+  width: 40px;
+  gap: 10px;
+  display: flex;
+}
+
+.full-w-border {
+  border: 1px solid black;
+}
+
+.bottom-section {
+  display: flex;
+  margin: 8px 50px;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-section>div>img {}
+
+.payment-options {
+  height: 80px;
+  width: 200px;
+}
