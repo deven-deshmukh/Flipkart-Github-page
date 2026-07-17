@@ -1,4 +1,4 @@
-# Flipkart Clone <img src="https://staticprintenglish.theprint.in/wp-content/uploads/2025/04/ANI-20250422062444.jpg" width="50px" height="50px"/>
+# Flipkart Clone  <img src="https://staticprintenglish.theprint.in/wp-content/uploads/2025/04/ANI-20250422062444.jpg" width="40px" height="90px"/>
 
 A modern, responsive front-end clone of the Flipkart e-commerce platform. This project recreates the familiar user interface of Flipkart, focusing on clean layouts, smooth navigation, and a pixel-perfect user experience.
 
